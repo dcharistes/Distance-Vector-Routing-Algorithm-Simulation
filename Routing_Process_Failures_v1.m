@@ -28,7 +28,7 @@ Event_List( 3, end ) = 1;
 
 Router_Flags = zeros(1, Number_Routers);
 
-[ Next_Hop, Neighbors ] = Routing_Init( Cost_Matrix );
+[ Next_Hop, Neighbors ] = Routing_Init_v1( Cost_Matrix );
 
 while Sim_Flag
 
